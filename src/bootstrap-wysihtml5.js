@@ -56,7 +56,10 @@
                   "<a href='#' class='btn btn-primary' data-dismiss='modal'>" + locale.link.insert + "</a>" +
                 "</div>" +
               "</div>" +
-              "<a class='btn" + size + "' data-wysihtml5-command='createLink' title='" + locale.link.insert + "' tabindex='-1'><i class='icon-share'></i></a>" +
+              "<div class='btn-group'>" +
+                "<a class='btn" + size + "' data-wysihtml5-command='createLink' title='" + locale.link.insert + "' tabindex='-1'><i class='icon-share'></i></a>" +
+                "<a class='btn" + size + "' data-wysihtml5-command='createDirectoryLink' title='Create Directory Link'><i class='icon-user'></i></a>" +
+              "</div>" +
             "</li>";
         },
 
